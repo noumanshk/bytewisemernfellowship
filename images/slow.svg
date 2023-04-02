@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#000000" height="382" id="svg_1" rx="20" ry="20" stroke="#000000" width="552" x="46" y="46"/>
+  <rect fill="#ffffff" height="328" id="svg_2" stroke="#000000" width="495" x="71" y="76"/>
+  <text fill="#000000" font-family="Serif" font-size="96" font-weight="bold" id="svg_3" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.05617 0 0 1.30857 -16.5811 -41.665)" x="316.78" xml:space="preserve" y="209">Go Mall</text>
+  <text fill="#000000" font-family="Serif" font-size="90" font-weight="bold" id="svg_4" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="321" xml:space="preserve" y="346">Go slow</text>
+ </g>
+</svg>

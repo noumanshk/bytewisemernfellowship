@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Creative Agency_files/creative.css">
+    
+    <title>Creative Agency</title>
+</head>
+
+<body>
+    
+    
+    <header>
+        <div class="logo">Creative Agency</div>
+        <div class="toggle"></div>
+        <div class="navigation"> 
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/services.html">Services</a></li>
+                <li><a href="http://127.0.0.1:5500/work.html">Work</a></li>
+                <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+            </ul>
+            <div class="social-bar">
+                <ul>
+                    <li>
+                        <a href="https://facebook.com/">
+                            <img src="./Creative Agency_files/facebook.png" target="_blank" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twi.com/">
+                            <img src="./Creative Agency_files/twitter.png" target="_blank" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com/">
+                            <img src="./Creative Agency_files/instagram.png" target="_blank" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <a href="mailto:you@email.com" class="email-icon">
+                    <img src="./Creative Agency_files/email.png" alt="">
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="home">
+        <img src="./Creative Agency_files/man-working.jpg" class="home-img" alt="">
+        <div class="home-content">
+            <h1>we help you achieve <br> your goals.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quam totam praesentium amet quos non earum aut ab sed nostrum!
+            Veniam sequi iste, laudantium natus beatae repellendus voluptates, alias nisi esse nemo reiciendis modi, aliquam a dolore eos est officia.
+            Recusandae molestias est magnam maiores officia voluptatibus quia totam enim, accusantium, incidunt aperiam perferendis ipsam itaque non doloremque blanditiis dolores.
+            Molestiae laudantium sit, a dignissimos eos, delectus sint eum libero sunt necessitatibus repellendus illo consequatur voluptatibus, magnam voluptates saepe ab.
+            Delectus quisquam accusamus, numquam tempore vel ex quos, soluta exercitationem quia vitae facere natus, voluptatum veritatis libero officia saepe in.
+        </p>
+        <a href="http://127.0.0.1:5500/contact.html" class="btn">Get started</a>
+        </div>   
+              
+    </section>
+
+
+<script src="./Creative Agency_files/code.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+    
+</body></html>
